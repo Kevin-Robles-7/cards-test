@@ -1,27 +1,72 @@
 [
     {
-        "title": "Video Juegos",
-        "content": "Explore the latest video games and discover exciting gameplay experiences.",
-        "image": "src/assets/games.png"
+        "id": 1,
+        "category":"",
+        "title": "Video 1",
+        "description": "Description of Video 1",
+        "url": "https://www.example.com/video1"
     },
     {
-        "title": "Musica",
-        "content": "Listen to the latest music releases and discover new artists across various genres.",
-        "image": "src/assets/Musics.png"
+        "id": 2,
+        "category":"",
+        "title": "Video 2",
+        "description": "Description of Video 2",
+        "url": "https://www.example.com/video2"
     },
     {
-        "title": "Tutoriales de Programacion",
-        "content": "Learn programming skills with our comprehensive programming tutorials and guides.",
-        "image": "src/assets/python.png"
+        "id": 3,
+        "category":"",
+        "title": "Video 3",
+        "description": "Description of Video 3",
+        "url": "https://www.example.com/video3"
     },
     {
-        "title": "Peliculas de Accion",
-        "content": "Experience adrenaline-pumping action with our selection of blockbuster action movies.",
-        "image": "src/assets/netflix.png"
+        "id": 4,
+        "category":"",
+        "title": "Video 3",
+        "description": "Description of Video 3",
+        "url": "https://www.example.com/video3"
     },
     {
-        "title": "Peliculas Animadas",
-        "content": "Immerse yourself in the enchanting world of animated movies with our collection of animated classics and modern favorites.",
-        "image": "src/assets/disney.png"
+        "id": 5,
+        "category":"",
+        "title": "Video 3",
+        "description": "Description of Video 3",
+        "url": "https://www.example.com/video3"
+    },
+    {
+        "id": 6,
+        "category":"",
+        "title": "Video 3",
+        "description": "Description of Video 3",
+        "url": "https://www.example.com/video3"
+    },
+    {
+        "id": 7,
+        "category":"",
+        "title": "Video 3",
+        "description": "Description of Video 3",
+        "url": "https://www.example.com/video3"
+    },
+    {
+        "id": 8,
+        "category":"",
+        "title": "Video 3",
+        "description": "Description of Video 3",
+        "url": "https://www.example.com/video3"
+    },
+    {
+        "id": 9,
+        "category":"",
+        "title": "Video 3",
+        "description": "Description of Video 3",
+        "url": "https://www.example.com/video3"
+    },
+    {
+        "id": 10,
+        "category":"",
+        "title": "Video 3",
+        "description": "Description of Video 3",
+        "url": "https://www.example.com/video3"
     }
 ]
