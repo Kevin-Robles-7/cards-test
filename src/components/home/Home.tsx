@@ -1,33 +1,6 @@
-const Home = () => {
+import cardsData from "../../data/videos.json";
 
-    const cards = [
-        {
-            title: "Video Juegos",
-            content: "Explore the latest video games and discover exciting gameplay experiences.",
-            image: "src/assets/games.png"
-        },
-        {
-            title: "Musica",
-            content: "Listen to the latest music releases and discover new artists across various genres.",
-            image: "src/assets/Musics.png"
-        },
-        {
-            title: "Tutoriales de Programacion",
-            content: "Learn programming skills with our comprehensive programming tutorials and guides.",
-            image: "src/assets/python.png"
-        },
-        {
-            title: "Peliculas de Accion",
-            content: "Experience adrenaline-pumping action with our selection of blockbuster action movies.",
-            image: "src/assets/netflix.png"
-        },
-        {
-            title: "Peliculas Animadas",
-            content: "Immerse yourself in the enchanting world of animated movies with our collection of animated classics and modern favorites.",
-            image: "src/assets/disney.png"
-        }
-    ];
-    
+const Home = () => {
     return (
         <div className="bg-white border-gray-200 dark:bg-gray-900">
             <nav className="max-w-screen-xl flex justify-between items-center mx-auto p-4 bg-gray">
@@ -87,7 +60,7 @@ const Home = () => {
                 </div>
             </nav>
             <div className="max-w-screen-xl mx-auto flex flex-wrap justify-center space-x-4 p-4">
-                {cards.map((card, index) => (
+                {cardsData.map((card: any, index: number) => (
                     <div key={index} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
                         <a className="flex justify-center">
                             <img className="rounded-t-lg" src={card.image} alt="" />

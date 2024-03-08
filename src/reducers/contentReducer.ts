@@ -1,16 +1,10 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { Video } from "../models/videos";
 
 interface ContentState{
     videos: Video[];
     loading: boolean;
     error:string | null;
-}
-
-interface Video{
-    id: number;
-    title: string;
-    description: string;
-    url: string
 }
 
 const initialState: ContentState={

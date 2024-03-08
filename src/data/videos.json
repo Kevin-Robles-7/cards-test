@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Video Juegos",
+        "content": "Explore the latest video games and discover exciting gameplay experiences.",
+        "image": "src/assets/games.png"
+    },
+    {
+        "title": "Musica",
+        "content": "Listen to the latest music releases and discover new artists across various genres.",
+        "image": "src/assets/Musics.png"
+    },
+    {
+        "title": "Tutoriales de Programacion",
+        "content": "Learn programming skills with our comprehensive programming tutorials and guides.",
+        "image": "src/assets/python.png"
+    },
+    {
+        "title": "Peliculas de Accion",
+        "content": "Experience adrenaline-pumping action with our selection of blockbuster action movies.",
+        "image": "src/assets/netflix.png"
+    },
+    {
+        "title": "Peliculas Animadas",
+        "content": "Immerse yourself in the enchanting world of animated movies with our collection of animated classics and modern favorites.",
+        "image": "src/assets/disney.png"
+    }
+]
