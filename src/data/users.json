@@ -1,32 +1,32 @@
 [
     {
-        "name":"",
-        "email":"",
-        "password":"",
-        "photo":""
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "password123",
+        "photo": "src/assets/user.png"
     },
     {
-        "name":"",
-        "email":"",
-        "password":"",
-        "photo":""
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "password": "password456",
+        "photo": "src/assets/user.png"
     },
     {
-        "name":"",
-        "email":"",
-        "password":"",
-        "photo":""
+        "name": "Michael Johnson",
+        "email": "michael.johnson@example.com",
+        "password": "password789",
+        "photo": "src/assets/user.png"
     },
     {
-        "name":"",
-        "email":"",
-        "password":"",
-        "photo":""
+        "name": "Emily Brown",
+        "email": "emily.brown@example.com",
+        "password": "passwordabc",
+        "photo": "src/assets/user.png"
     },
     {
-        "name":"",
-        "email":"",
-        "password":"",
-        "photo":""
+        "name": "Daniel Wilson",
+        "email": "daniel.wilson@example.com",
+        "password": "passworddef",
+        "photo": "src/assets/user.png"
     }
 ]

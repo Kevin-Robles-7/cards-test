@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useForm } from 'react-hook-form';
+import userData from "../../data/users.json";
 
 export interface AuthLogin{
     email?:string;
@@ -10,9 +11,20 @@ const Login = () => {
 
     const {register, handleSubmit, formState:{errors}} = useForm<AuthLogin>();
     const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-    const onSubmit = ()=>{
-        setIsModalOpen(true);
+
+    const onSubmit = (data: AuthLogin) => {
+        const user = userData.find(user => user.email === data.email && user.password === data.password);
+        if (user) {
+            setIsLoggedIn(true);
+        } else {
+            setIsModalOpen(true);
+        }
+    }
+
+    if (isLoggedIn) {
+        window.location.href="/";
     }
 
     return (
@@ -92,3 +104,4 @@ const Login = () => {
 };
 
 export default Login;
+
